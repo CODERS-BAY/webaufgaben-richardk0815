@@ -1,0 +1,46 @@
+body {
+    background-color:azure;
+}
+nav {
+    background-color: gray;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+  }
+
+nav a {
+    color:honeydew;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    color:cadetblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    max-width: 50rem;
+    margin:auto;
+    display:flex;
+}
+
+article {
+    width: 50%;
+    margin: 0 2rem;
+}
+
+img {
+    max-width: 300px;
+    max-height: auto;
+    display: block;
+}
+
