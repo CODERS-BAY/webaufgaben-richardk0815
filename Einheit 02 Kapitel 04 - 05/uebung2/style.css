@@ -1,0 +1,56 @@
+body {
+    background-color:#9ca854;
+}
+
+header {
+    background-color:#555c2e;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0em;
+    padding: 1rem;
+}
+
+nav {
+    text-align: left;    
+}
+
+nav li {
+    display:inline;
+    padding: 0 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color:white    
+}
+
+ul {
+list-style-type: none;
+}
+
+li {
+margin-bottom: 1rem;
+font-weight: bold;
+}
+
+hr {
+    color: #555c2e; 
+}
+
+p {
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+article {
+    margin: 1rem;
+}
+
+aside {
+    margin: 3rem;
+}
+
+section {
+    margin:2rem
+}
