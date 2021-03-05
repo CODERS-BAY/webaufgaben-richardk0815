@@ -1,0 +1,43 @@
+body {
+    background-color:grey;
+}
+
+h1 {
+    color:rgb(102, 102, 102);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(6, 48, 90);
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 40%;
+}
+
+figcaption {
+    position: absolute;
+    color:white;
+    background-color: rgba(161, 40, 40, 0.5);
+    width: 40%;
+    bottom: 0;
+    padding: 15px 0;
+}
+
+figure {
+    position:relative;
+    margin: 0px;
+}
+
+video, iframe {
+    max-width: 40%;
+}
+
+audio {
+    color: black;
+}
