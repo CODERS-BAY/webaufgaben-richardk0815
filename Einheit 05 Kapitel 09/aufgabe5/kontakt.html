@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mini-Zoo Kontakt</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="h1kon">Mini-Zoo Kontakt</h1>
+        <nav>
+            <a href="index.html" class="nav-hover">Home</a>
+            <a href="infos.html" class="nav-hover">Info's</a>
+            <a href="kontakt.html" class="nav-hover">Kontakt</a>
+        </nav>
+    </header>
+    <main class="kontakt">
+        <section>
+            <h2>Kontaktformular</h2>
+            <form method="POST" action="ausgabe.html"></form>
+            <p>Name</p>
+            <input class="eingabe" type="text" name="name">
+            <p>Mailadresse</p>
+            <input class="eingabe" type="mail" name="mailadresse">
+            <p>Besuchstag</p>
+            <input class="eingabe" type="date" name="besuchstag">
+            <p>Besuchszeit</p>
+            <input class="eingabe" type="time" name="besuchszeit">
+            <p>Hat es gefallen?</p>
+            <span class="range"><input class="eingabe" type="range" name="hatgefallen" min="1" max="5"></span>
+            <p>Weiterempfehlung?</p>
+            <input class="eingabe" type="radio" name="weiterempfehlung" id="ja" value="Ja">
+            <label for="ja">Ja</label>
+            <input class="eingabe" type="radio" name="weiterempfehlung" id="nein" value="Nein">
+            <label for="nein">Nein</label>
+            <p>Welches war ihr Lieblingstier?</p>
+            <label class="eingabe" for="lieblingstier"></label>
+            <select name="lieblingstier" id="lieblingstier">
+                <option value="1">Numbat</option>
+                <option value="2">Tasmanischer Teufel</option>
+                <option value="3">Nördliches Spitzhörnchen</option>
+                <option value="4">Großes wandelndes Blatt</option>
+                <option value="5">Samtschrecke</option>
+                <option value="6">Gladiatoren</option>
+                <option value="7">Seefledermaus</option>
+                <option value="8">Großer Fetzenfisch</option>
+                <option value="9">Blaupunktrochen</option>
+                <option value="9">Kiwis</option>
+                <option value="9">Königspinguin</option>
+                <option value="9">Kasuare</option>
+            </select>
+            <p>Kommentar</p>
+            <Textarea class="eingabe" type="textarea" name="kommentar"></Textarea>
+            <p>Besucherinfo</p>
+            <label class="eingabe" for="lieblingstier"></label>
+            <select name="lieblingstier" id="lieblingstier">
+                <option value="1">Familienausflug</option>
+                <option value="2">Allein unterwegs</option>
+                <option value="3">Gruppenausflug</option>
+                <option value="4">Ausflug mit Freunden</option>
+                <option value="5">was anderes</option>
+            </select>
+            <br>
+            <br>
+            <button class="eingabe" type="submit" value="submit" name="action">Senden</button>
+            <button class="eingabe" type="reset">Zurücksetzen</button>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

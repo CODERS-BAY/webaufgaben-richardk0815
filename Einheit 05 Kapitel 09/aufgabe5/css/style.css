@@ -1,0 +1,125 @@
+body {
+    background-color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
+header {
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 10px 10px 30px 10px;
+    margin: 0px 40px 0px 40px;
+}
+
+h1 {
+    text-align: center;
+    color: white;   
+}
+
+.h1ind::first-letter {
+    color: rgb(148, 245, 248);
+}
+
+.h1inf::first-letter {
+    color: rgb(148, 245, 248);
+    font-family: 'Syne Mono', monospace;;
+}
+
+.h1kon::first-letter {
+    color: rgb(148, 245, 248);
+    font-family: 'Chango', cursive;
+}
+
+nav {
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-hover:hover {
+    color: rgb(148, 245, 248);
+}
+
+main {
+    margin: auto;
+    display:flex;
+    max-width: 80rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3::first-letter {
+    color: rgb(148, 245, 248);
+}
+
+section {
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: white;
+    width: 50em;
+    padding: 5px;
+    margin: 3em;
+    font-size: 1.2rem;
+}
+
+dl {
+    padding-left: 8em;
+}
+
+img, iframe {
+    max-width:100%;
+    border-radius: 5px;
+}
+
+img {
+    width: 49%;
+    margin: 1px;
+}
+
+.img-hover:hover {
+    transform: scale(2);
+    border-style: solid;
+    border-color: rgb(148, 245, 248);
+    transition: 50ms;
+}
+
+.infos {
+    width: 60em;
+    margin: auto;
+    display:flex;
+}
+
+.kontakt {
+    width: 30em;
+    margin: auto;
+    display:flex;
+    text-align: center;
+}
+
+input[type="mail"] {
+    border-color: red;
+}
+
+.range::before {
+    background-image: url('../media/thumbs-up.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    content:"";
+    padding: 15px;
+} 
+
+.range::after {
+    background-image: url('../media/rejected.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    content:"";
+    padding: 15px;
+} 
